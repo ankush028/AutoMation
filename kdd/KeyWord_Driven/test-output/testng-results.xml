@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15524" started-at="2020-01-08T06:56:06Z" finished-at="2020-01-08T06:56:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15524" started-at="2020-01-08T06:56:06Z" finished-at="2020-01-08T06:56:22Z">
+      <class name="com.bridgelabz.kdd.tests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.kdd.tests.LoginTest@204f30ec]" name="setUp" is-config="true" duration-ms="45" started-at="2020-01-08T12:26:06Z" finished-at="2020-01-08T12:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.bridgelabz.kdd.tests.LoginTest@204f30ec]" name="loginTest" duration-ms="15403" started-at="2020-01-08T12:26:06Z" finished-at="2020-01-08T12:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.bridgelabz.kdd.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

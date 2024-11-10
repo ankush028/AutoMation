@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Linked Application Test Automation Test Suite" parallel="classes" thread-count="2">
+
+      	<listeners>
+            <listener
+                class-name="com.qacapital2.util.ExtentReportListener"></listener>
+        </listeners>
+    <test name="Linked list App Test Cases">
+        <classes>
+            <class name="com.qacapital2.test.LoginTest"></class>
+            <class name="com.qacapital2.test.LoginTest2"></class>
+        </classes>
+    </test>
+</suite>
